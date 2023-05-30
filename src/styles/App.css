@@ -158,4 +158,9 @@
      font-family: AppleGothic;
 
  }
+ a{
+        text-decoration: none;
+        font-family: AppleGothic;
+     color: #282c34;
+ }
 
