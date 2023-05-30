@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.film-card{
+    width: 800px;
+    height:auto;
+    background-color: cadetblue;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    font-family: ' Courier New', Courier, monospace;
+}
+.film-card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.img_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.actors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.actors >li{
+    list-style: none;
+    margin: 5px;
+    font-size: 10px;
+}
+.critics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: solid 1px #538397;
+
+}
+.navbar > h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ' Courier New', Courier, monospace;
+}
+.navbar >li{
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar > li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar >ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.film{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+}
+.quizz > h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: AppleGothic;
+}
+.questions{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;}
+.questions >li{
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: AppleGothic;
+}
+ button{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #538397;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+     font-family: AppleGothic;
+
+ }
+
